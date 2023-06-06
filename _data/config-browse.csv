@@ -1,6 +1,9 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
 creator,Creator,,,
+illustrator,Illustrator,,,
+genre,Genre,,,
+publisher,Publisher,,,
 subject,,true
 location,,true
 identifier,,,true,Identifier

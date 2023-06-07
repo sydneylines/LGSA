@@ -6,20 +6,17 @@ layout: page
 <div class="row">
 
   <div class="col-md-8">
+    
+  {{ content }} 
 
-    {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" %}
+    {% include index/carousel.html title="Featured Items" %}
     
   </div>
-  <div class="col-md-4">  
+  <div class="col-md-4">
 
-    {% include index/time.html %}
-
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
-    
-    {% include index/objects.html %}
+    {% include feature/image.html objectid="/assets/img/lgs_headshot.jpg" width="75" %} 
+    {% include feature/image.html objectid="/assets/img/lgs-sig.png" %}
+    {% include index/description.html %}
 
   </div>
   <div class="col-md-12">

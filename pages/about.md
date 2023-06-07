@@ -8,11 +8,11 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="hiddenfire1" %} 
+{% include feature/jumbotron.html objectid="/assets/img/lgsa-header.jpg" %} 
+
+{% include feature/image.html objectid="/assets/img/lgs_headshot.jpg" width="25" %} 
 
 ## About Laura Goodman Salverson
-
-{% include feature/image.html objectid="/assets/img/lgsa-headshot.jpg" %} 
 
 Laura Goodman Salverson (1890-1970) was best known for her Norse-inspired fiction and her sympathetic depictions of Scandinavian and German immigrants in North America. 
 Born in Winnipeg to impoverished Icelandic immigrants, Salverson moved with her family to Minnesota and Mississippi before returning to Manitoba as an adult.

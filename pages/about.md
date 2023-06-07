@@ -10,8 +10,6 @@ credits: true
 
 {% include feature/jumbotron.html objectid="hiddenfire1" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
-
 ## About Laura Goodman Salverson
 
 {% include feature/image.html objectid="/assets/img/lgsa-headshot.jpg" %} 

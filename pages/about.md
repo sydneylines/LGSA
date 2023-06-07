@@ -12,7 +12,7 @@ credits: true
 
 {% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
 
-## About Laura Goodman Salverson (1890-1970)
+## About Laura Goodman Salverson
 
 {% include feature/image.html objectid="/assets/img/lgsa-headshot.jpg" %} 
 

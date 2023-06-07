@@ -8,26 +8,19 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="hiddenfire1" %} 
 
 {% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
 
-## About CollectionBuilder CSV
+## About Laura Goodman Salverson (1890-1970)
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+{% include feature/image.html objectid="/assets/img/lgsa-headshot.jpg" %} 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+Laura Goodman Salverson (1890-1970) was best known for her Norse-inspired fiction and her sympathetic depictions of Scandinavian and German immigrants in North America. 
+Born in Winnipeg to impoverished Icelandic immigrants, Salverson moved with her family to Minnesota and Mississippi before returning to Manitoba as an adult.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+### About the Archive
+The Laura Goodman Salverson Archive (LGSA) is an ongoing project to digitize and collect Salverson's ouevre. The archive is managed and directed by Sydney Lines, who is currently writing her dissertation on Laura Goodman Salverson. Like Laura, Sydney is also a Western Icelander. 
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+#### Get in Touch
+Sydney Lines, LGSA Director, [lgsa.director@gmail.com](mailto:lgsa.director@gmail.com) 

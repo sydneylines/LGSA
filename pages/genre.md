@@ -1,13 +1,18 @@
 ---
 title: Genre
-layout: cloud
+layout: page-narrow
 permalink: /genre.html
-cloud-fields: genre
-cloud-min: 
-cloud-stopwords:
 ---
+
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{% assign genre = items | map: 'genre' | compact | uniq %}
 
 ## Browse by Genre
 
-Use this word cloud visualization to browse by genre.
-Word size is determined by frequency and all words link to a corresponding collection search.
+{% for g in genre %}
+### {{ g }}
+
+{% assign related = items | where: 'genre',g %}
+{% for r in related %}
+- [{{ r.title }}]({{ '/items/' | relative_url }}{{ r.objectid }}.html){% endfor %}
+{% endfor %}

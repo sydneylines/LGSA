@@ -1,13 +1,17 @@
 ---
 title: Publishers
-layout: cloud
+layout: page-narrow
 permalink: /publishers.html
-cloud-fields: publisher
-cloud-min: 
-cloud-stopwords:
 ---
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{% assign publishers = items | map: 'publisher' | compact | uniq %}
 
 ## Browse Publishers
 
-Use this word cloud visualization to browse publishers.
-Word size is determined by frequency and all words link to a corresponding collection search.
+{% for p in publishers %}
+### {{ p }}
+
+{% assign related = items | where: 'publisher',p %}
+{% for r in related %}
+- [{{ r.title }}]({{ '/items/' | relative_url }}{{ r.objectid }}.html){% endfor %}
+{% endfor %}

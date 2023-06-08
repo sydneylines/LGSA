@@ -1,13 +1,18 @@
 ---
 title: Illustrators
-layout: cloud
+layout: page-narrow
 permalink: /illustrators.html
-cloud-fields: illustrator
-cloud-min: 
-cloud-stopwords:
 ---
+
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{% assign illustrators = items | map: 'illustrator' | compact | uniq %}
 
 ## Browse Illustrators
 
-Use this word cloud visualization to browse illustrators.
-Word size is determined by frequency and all words link to a corresponding collection search.
+{% for i in illustrators %}
+### {{ i }}
+
+{% assign related = items | where: 'illustrator',i %}
+{% for r in related %}
+- [{{ r.title }}]({{ '/items/' | relative_url }}{{ r.objectid }}.html){% endfor %}
+{% endfor %}

@@ -51,9 +51,9 @@ metadata: lgsa_metadata
 #   To remove the branding, comment out these values, or delete them. 
 #
 organization-name: "The Laura Goodman Salverson Archive (LGSA)"
-organization-link: 
-organization-logo-banner: 
-organization-logo-nav:
+organization-link: # https://cdil.lib.uidaho.edu/
+organization-logo-banner: # https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
+organization-logo-nav: # https://cdil.lib.uidaho.edu/assets/img/logo.png
 
 ##########
 # GOOGLE SERVICES [optional!]

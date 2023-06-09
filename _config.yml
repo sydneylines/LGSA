@@ -53,7 +53,7 @@ metadata: lgsa_metadata
 organization-name: "The Laura Goodman Salverson Archive (LGSA)"
 organization-link: 
 organization-logo-banner: 
-organization-logo-nav: /assets/img/lgs-monogram.jpg
+organization-logo-nav:
 
 ##########
 # GOOGLE SERVICES [optional!]

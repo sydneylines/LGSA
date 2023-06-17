@@ -51,7 +51,7 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 # set either year-navigation or year-nav-increment to generate a year nav dropdown
-year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
+year-navigation: # "1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
 year-nav-increment: 1 # set increments to auto gen nav years
 
 ##########
@@ -71,10 +71,10 @@ metadata-facets-fields: "subject,creator,format"
 # select true below if you'd like your compound object's child objects to appear in any of the pages or features listed
 map-child-objects: true # true / false - if true, and if child item has latitude and longitude, child objects will be displayed on map
 timeline-child-objects: true # true / false - if true, and if child object has date, child objects will appear as thumbnails on timeline page
-data-child-objects: false # true / false - if true, child objects will appear linked in table on data page
+data-child-objects: true # true / false - if true, child objects will appear linked in table on data page
 carousel-child-objects: false # true / false - if true, child objects will appear on homepage carousel
 browse-child-objects: false # true / false - if true, child objects will appear on browse page and child objects' metadata will populate cloud pages like Subjects page and Locations page, as well as featured terms boxes on the home page
-search-child-objects: true # true / false - if true, child objects will appear on on search page along with parent objects
+search-child-objects: true # true / false - if true, child objects will appear on search page along with parent objects
 
 
 ##########
@@ -97,8 +97,8 @@ bootswatch: # leave blank or comment out for plain bootstrap
 # THEME FONTS [optional!]
 base-font-size: 1.2em
 text-color: "#191919"
-link-color: "#9F8F71"
-base-font-family: # comment out for bootstrap defaults. e.g. Roboto
+link-color: "#967E5C"
+base-font-family: Helvetica # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
